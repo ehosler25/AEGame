@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+            <nav id="navBar">
+                <a href="index.html"><img src="images/LLL_AE.png" class="logo"></a>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                <a href="https://forms.gle/HEE3wrtbPQuMMFep9" target="_blank" class="register-btn">Survey</a>
+                <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+            </nav>
+
+            <!--Search Box Container-->
+            <div class="container">
+                <h1>Find Your Game</h1>
+                <div class="search-bar">
+                    <form>
+                        <div class="location-input">
+                            <label>Type</label>
+                            <input type="text" placeholder="Card or Board?">
+                        </div>
+                        <div>
+                            <label>Merchandise</label>
+                            <input type="text" placeholder="Shirts or Hats?">
+                        </div>
+                        <div>
+                            <label>Check Out</label>
+                            <input type="text" placeholder="Add Date">
+                        </div>
+                        <div>
+                            <label>Gamers</label>
+                            <input type="text" placeholder="Add Gamers">
+                        </div>
+                        <button type="submit"><img src="images/search.png"></button>
+                    </form>
+                </div>
+            </div>
+    </div>
+
+    <!--Exclusives Container-->
+
+    <div class="container">
+        <h2 class="sub-title">Exclusive Games</h2>
+        <div class="exclusives">
+            <div>
+                <img src="images/kcs_uno.png">
+                <span>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/croppedmonopoly_kcs.png">
+                <span>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/GFish_AE.png">
+                <span>
+                </span>
+            </div>
+
+            <div>
+                <img src="images/KCSDominos_AE.png">
+                <span>
+                    
+                </span>
+            </div>
+
+            <div>
+               
+            </div>
+        </div>
+        <!--Stories-->
+        <h2 class="sub-title">Merchandise</h2>
+        <div class="stories">
+           <div>
+               <img src="images/Shirt1.png">
+               <p> Shirt- Color Options: Green, Blue, White, Black, and Orange</p>
+           </div>
+
+           <div>
+               <img src="images/Shirt2.png">
+               <p>Shirt- Color Options: Green, Blue, White, Black, and Orange</p>
+           </div>
+
+           <div>
+               <img src="images/Hat1.png">
+               <p>Hat- Color Options: Green, Blue, White, Black, and Orange</p>
+           </div>
+        </div>
+        <a href="#" class="start-btn"> Starting Gaming</a>
+
+        <!--About-->
+        <div class="about-msg">
+            <h2>About Addison & Ella </h2>
+            <p>We came up with the idea to create games about Keswick and our belief in Christianity. We both attend Keswick Christian school and find joy in being here. Our intention is to reach people through our games, educating them about the school and the Lord. We have had a lot of fun making our games and hope that they bring you as much joy it has brought us, if you have children this game is perfect for them. Our games are family friendly and talk about how keswick and the Lord can help you and be beneficial to you. We both can’t wait to see what the future brings for our school and in serving the Lord.</p>
+        </div>
+
+        <!--Footer-->
+        <div class="footer">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <hr>
+            <p>Copyright &copy; 2024, Addison & Ella Gaming</p>
+        </div>
+    </div>
+<script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+</script>
+
+
+    <script src="https://kit.fontawesome.com/9d5fee52c0.js" crossorigin="anonymous"></script>
+</body>
+</html> 
